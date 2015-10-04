@@ -24,4 +24,4 @@
 
 * License
 
-  MIT license (@ 2015 Yali Bian)
+  MIT license (© 2015 Yali Bian)
