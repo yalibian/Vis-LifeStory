@@ -1,0 +1,27 @@
+#+TITLE:       Vis-Biography
+#+AUTHOR:      Yali Bian
+#+EMAIL:       byl.lisp@gmail.com
+#+DATE:        2015-07-27 Mon
+
+
+* Intro
+
+  This visualization system is applied to present the life-time of someone visually which includes:
+    - His/Her honors
+    - His/Her publications/works
+    - His/Her experiences
+    - His/Her Locations
+
+
+* Demo
+
+  Visit demo on [[http://www.lisp.one/vis/biography][www.lisp.one]]
+
+* Contact
+
+  Yali Bian (byl.lisp@gmail.com)
+
+
+* License
+
+  MIT license (@ 2015 Yali Bian)
