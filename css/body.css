@@ -1,0 +1,205 @@
+			body 
+			{  
+				background-image : url(../img/bg.png);
+				background-repeat : repeat-x;
+			}	 
+			
+			fieldset {
+				background: rgba(234,234,234,.2);
+				border-color: rgba(255,255,255,.6);
+				border-style: solid;
+				border-width: 3px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-khtml-border-radius: 5px;
+				border-radius: 5px;
+				line-height: 30px;
+				list-style: none;
+				padding:10px 5px 15px 20px;
+				margin-left: 20px;				
+				margin-bottom: 2px;
+				font-family  : Cambria;
+				font-size : 16px;
+				color : black;
+			}
+
+			fieldset legend {
+				color:#302A2A;
+				font: bold 25px Cambria;
+				font-weight: bold;
+				text-align: left;
+				text-shadow: 2px 2px 2px rgb(88, 126, 156);
+			}
+			
+			.custom{
+				font-family  : Cambria;
+				margin-top : 100px;
+				
+				margin-left : 50px;
+				color : black;
+			}
+			
+			#generate_url_text{
+				font-family : 微软雅黑;
+				color: #3e3e3e;
+				padding:10px 10px 10px 10px;
+				font-size : 14px;
+				text-align : center;
+				border-style: solid;
+				border-width : 1px;
+				background-color: #e3e3e3;
+				border-radius : 5px;
+			}
+			
+			#customdesign{
+				font-family : Cambria;
+				font-weight: bold;
+				font-size : 21px;
+				text-shadow: 2px 2px 2px rgb(89, 89, 89);
+				margin-bottom : 10px;
+			}
+			
+			@-webkit-keyframes bluePulse {
+				from { background-color: #61c8f5; -webkit-box-shadow: 0 0 5px #61c8f5; }
+				50% { background-color: #61c8f5; -webkit-box-shadow: 0 0 25px #61c8f5; }
+				to { background-color: #61c8f5; -webkit-box-shadow: 0 0 5px #61c8f5; }
+			}
+
+			.blue{
+				-webkit-animation-name: bluePulse;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+			}
+			
+			.custombutton, .custombutton:visited {
+				background: #4492e2;
+				font-family:微软雅黑;
+				padding:10px 20px 10px 20px;
+				display: inline-block;
+				color: #fff;
+				text-decoration: none;
+				-moz-border-radius: 6px;
+				-webkit-border-radius: 6px;
+				-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+				-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+				text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+				border-bottom: 1px solid rgba(0,0,0,0.25);
+				position: relative;
+				cursor: pointer
+			}
+						
+			.a-upload {
+				margin-left : 50px;
+				padding: 4px 10px;
+				top : 10px;
+				height: 20px;
+				line-height: 20px;
+				position: relative;
+				cursor: pointer;
+				color: #888;
+				background : #fafafa;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				overflow: hidden;
+				display: inline-block;
+				*display: inline;
+				*zoom: 1
+				font-size: 10px;
+			}
+
+			.a-upload  input {
+				position: absolute;
+				right: 0;
+				top: 0;
+				opacity: 0;
+				filter: alpha(opacity=0);
+				cursor: pointer
+			}
+
+			.a-upload:hover {
+				color: #444;
+				background: #eee;
+				border-color: #ccc;
+				text-decoration: none
+			}
+						
+			.infortitle {
+				font-family: Cambria;
+				font-size:24px;
+				text-align: center;
+				text-shadow: 0 1px 0 #fff;
+			}
+			
+			.engtext {
+			text-anchor : middle;
+			font-family: Cambria;
+			}
+			
+			
+			.chitext-1 {
+			text-anchor : middle;
+			font-family: 微软雅黑;
+			}
+			
+			.chitext-2 {
+			text-anchor : middle;
+			font-family: 宋体;
+			}
+		
+			.chitext-3 {
+			text-anchor : middle;
+			font-family: 楷体;
+			}
+			
+			.chitext-4 {
+			text-anchor : middle;
+			font-family: 隶书;
+			}
+			
+			#eventnode {
+				stroke-width : 2px;
+				stroke : #f0f0f0;
+				cursor: pointer;
+			}
+			
+			#eventtitle {
+				font-size: 10px;
+				cursor: pointer;
+			}
+			
+			.eventbox {
+				fill : #FCFCFC;
+				opacity : 0.8;
+				stroke: #EEE9E9;
+				stroke-width: 2px;
+			}
+			
+			.bgbox{
+				fill : white;
+				opacity : 0.7;
+				stroke : white;
+				stroke-width : 2px;
+			}	
+			@font-face{
+				font-family:'zhenghei';
+				src: url('FZZHJW.ttf');
+				}
+			
+			
+			.tooltip{
+				position: absolute;
+				width: 120;
+				height: auto;
+				font-family : 微软雅黑;
+				color: #3e3e3e;
+				padding:10px 10px 20px 20px;
+				font-size : 14px;
+				text-align : center;
+				border-style: solid;
+				border-width : 1px;
+				background-color: rgba(255,255,255,0.7);
+				border-radius : 5px;
+				-webkit-box-shadow: 3px 3px 3px  rgba(0, 0, 0, .5);  
+				-moz-box-shadow: 3px 3px 3px  rgba(0, 0, 0, .5);  
+				box-shadow: 3px 3px 3px  rgba(0, 0, 0, .5);  
+			}

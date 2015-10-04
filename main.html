@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Vis-Bio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/body.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page.css"/>
+    <link rel="stylesheet" type="text/css" href="buttons/buttons.css"/>
+
+    <script type="text/javascript" src="js/d3.v3.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="colorSetting/colorSetting.js"></script>
+</head>
+
+<body>
+<div style="margin: 0 auto;width:1500px;height:auto;background:#FFF; box-shadow:-15px 0 15px rgba(0,0,0,0.3),15px 0 15px rgba(0,0,0,0.3)">
+
+    <div style="text-align:center;margin-top:20px">
+        <img style="margin-top:20px" src="img/title.png"/>
+    </div>
+    <table>
+        <tr>
+            <td width="100px">
+            </td>
+            <td id="right" style="margin:10px" width="1000px">
+            </td>
+            <td id="right2" style="margin:10px">
+            </td>
+        </tr>
+    </table>
+    <div style="text-align:center">
+        <table border="0">
+            <tr style="height:300px">
+                <td valign=top id="left" style="width:100px;padding-left:70px;padding-top:50px">
+                    <div id="custom-icon"
+                         style="width:78px;height:78px; cursor:pointer; background-image: url('img/custom.png');"
+                         onclick="show()"></div>
+                </td>
+
+                <td>
+                    <div id="custom" style="display:none">
+                        <table>
+                            <tr>
+                                <td height="10px">
+                                </td>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img width="30px" src="img/interface.png"/></td>
+                                            <td><label for="color1"
+                                                       style="color:black;font-family:微软雅黑;margin-left:10px;margin-right:10px">界面颜色</label>
+                                            </td>
+                                            <td><input type="text" id="input_color" name="color1" class="color"
+                                                       onChange="textinput2()" value="#123456"
+                                                       style="border-radius:2px;width:80px;cursor:pointer"/></td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td width="20px">
+                                </td>
+
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img width="30px" src="img/map.png"/></td>
+                                            <td><label for="color3"
+                                                       style="color:black;font-family:微软雅黑;margin-left:10px;margin-right:10px">地图颜色</label>
+                                            </td>
+                                            <td><input type="text" id="input_mapcolor" name="color2"
+                                                       onChange="textinput2()" class="color" value="#123456"
+                                                       style="border-radius:2px;width:80px;cursor:pointer"/></td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td width="20px">
+                                </td>
+
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img width="30px" src="img/pie.png"/></td>
+                                            <td><label for="color3"
+                                                       style="color:black;font-family:微软雅黑;margin-left:10px;margin-right:10px">饼图颜色</label>
+                                            </td>
+                                            <td><input type="text" id="input_piecolor" name="color3"
+                                                       onChange="textinput2()" class="color" value="#123456"
+                                                       style="border-radius:2px;width:80px;cursor:pointer"/></td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td width="20px">
+                                </td>
+
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td><img width="30px" src="img/font.png"/></td>
+                                            <td style="color:black;font-family:微软雅黑;margin-left:10px;margin-right:10px">
+                                                字体选择
+                                            </td>
+                                            <td>
+                                                <select id="fonttext" onChange="textinput2()">
+                                                    <option value="chitext-1" selected="selected">微软雅黑</option>
+                                                    <option value="chitext-2">宋体</option>
+                                                    <option value="chitext-3">楷体</option>
+                                                    <option value="chitext-4">隶书</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
