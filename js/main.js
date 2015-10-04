@@ -454,33 +454,37 @@ var drawPie = function () {
     var warc = d3.svg.arc().innerRadius(winnerRadius).outerRadius(wouterRadius);
     var warc2 = d3.svg.arc().innerRadius(winnerRadius).outerRadius(wouterRadius + 8);
 
-    var parcs = svg2.append("g").attr("id", "publicationpie").selectAll("g")
+    var parcs = svg2.append("g")
+        .attr("id", "publicationpie")
+        .selectAll("g")
         .data(pie(piedata))
         .enter()
         .append("g")
         .attr("transform", "translate(" + w2 / 2 + "," + (wouterRadius + wpadding) + ")");
 
-    var warcs = svg2.append("g").attr("id", "workcategorypie").selectAll("g")
+    var warcs = svg2.append("g")
+        .attr("id", "workcategorypie").selectAll("g")
         .data(pie(piedata2))
         .enter()
         .append("g")
-        .attr("transform", "translate(" + w2 / 2 + "," + (wouterRadius + wpadding + 2 * wouterRadius + 50) + ")");
+        .attr("transform", "translate(" + w2 / 2 + "," + (wouterRadius + wpadding + 2 * wouterRadius + 80) + ")");
 
 
     svg2.append("text")
-        .text("登载杂志↓")
-        .attr("class", "engtext")
-        .style("font-size", "18px")
-        .attr("class", fontresult)
-        .attr("x", w2 / 2).attr("y", 80);
-
-    svg2.append("text")
-        .text("类别领域↓")
+        .text("Publication")
         .attr("class", "engtext")
         .style("font-size", "18px")
         .attr("class", fontresult)
         .attr("x", w2 / 2)
-        .attr("y", 2 * wouterRadius + wpadding + 30);
+        .attr("y", 340);
+
+    svg2.append("text")
+        .text("Category")
+        .attr("class", "engtext")
+        .style("font-size", "18px")
+        .attr("class", fontresult)
+        .attr("x", w2 / 2)
+        .attr("y", 2 * wouterRadius + wpadding + 320);
 
     //publication
     parcs.append("path")
