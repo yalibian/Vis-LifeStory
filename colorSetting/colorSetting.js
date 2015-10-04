@@ -651,11 +651,11 @@ var jscolor = {
 
 			// load images in optimal order
 			switch(modeID) {
-				case 0: var padImg = 'hs.png'; break;
-				case 1: var padImg = 'hv.png'; break;
+				case 0: var padImg = './img/hs.png'; break;
+				case 1: var padImg = './img/hv.png'; break;
 			}
-			p.padM.style.background = "url('"+jscolor.getDir()+"cross.gif') no-repeat";
-			p.sldM.style.background = "url('"+jscolor.getDir()+"arrow.gif') no-repeat";
+			p.padM.style.background = "url('"+jscolor.getDir()+"img/cross.gif') no-repeat";
+			p.sldM.style.background = "url('"+jscolor.getDir()+"img/arrow.gif') no-repeat";
 			p.pad.style.background = "url('"+jscolor.getDir()+padImg+"') 0 0 no-repeat";
 
 			// place pointers
@@ -825,11 +825,11 @@ var jscolor = {
 
 		// require images
 		switch(modeID) {
-			case 0: jscolor.requireImage('hs.png'); break;
-			case 1: jscolor.requireImage('hv.png'); break;
+			case 0: jscolor.requireImage('./img/hs.png'); break;
+			case 1: jscolor.requireImage('./img/hv.png'); break;
 		}
-		jscolor.requireImage('cross.gif');
-		jscolor.requireImage('arrow.gif');
+		jscolor.requireImage('./img/cross.gif');
+		jscolor.requireImage('./img/arrow.gif');
 
 		this.importColor();
 	}
