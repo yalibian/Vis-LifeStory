@@ -2,4 +2,5 @@
 ## Directory-based project format:
 .idea/
 vis-repo/
+info/
 servlets/compiled/

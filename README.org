@@ -1,27 +1,38 @@
-#+TITLE:       Vis-Biography
+#+TITLE:          Vis-LifeStory: display the life story of someone
 #+AUTHOR:      Yali Bian
-#+EMAIL:       byl.lisp@gmail.com
-#+DATE:        2015-07-27 Mon
+#+EMAIL:         byl.lisp@gmail.com
+#+DATE:          2015-07-27 Mon
 
 
-* Intro
+The life-story visualization system combines geographic map with timelines to represent personal experience (like, works, locations, personal events, etc.) at the same view.
 
-  This visualization system is applied to present the life-time of someone visually which includes:
+This visualization system is applied to present the life-time of someone visually which includes:
     - His/Her honors
     - His/Her publications/works
     - His/Her experiences
     - His/Her Locations
 
-
 * Demo
 
-  Visit demo on [[http://www.lisp.one/vis/biography][www.lisp.one]]
+  You can test the visualization system through [[http://www.yalibian.com/vis/lifestory][this demo]].
 
-* Contact
+  If you want to explore all the functions of this visualization system offline, you can install, build and use it yourself.
 
-  Yali Bian (byl.lisp@gmail.com)
+* Usage
 
+  There is a [[http://www.yalibian.com/data/vis-lifestory.mov][vedio]], to display the view and all the interactions of this system.
+  The main view of the system is as follows:
+
+  [[./org/vis-lifestory.png]]
+
+* Install
+
+  If you want to build this system on your own pc, you should:
+
+  + Download this repo
+  + Serve this repo as the Static html files (make sure csv, or JSon files can be loaded to your browser)
+  + Open "index.html" in your Browser (Like Chrome, Firfox, or Safari).
 
 * License
 
-  MIT license (© 2015 Yali Bian)
+  MIT license (© 2014-2015 Yali Bian)
